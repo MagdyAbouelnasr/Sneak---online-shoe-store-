@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registeration</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="styles/myStyleregister.css">
+		<script src="script.js"></script>
+	</head>
+
+	<body>
+		<div id="main">
+		<div id="header">
+			<div id="name" class="both">
+				<h1>	SNEAK</h1>
+			</div>
+
+			<div id="floatingMenu" class="both">
+				<img src="images/floatbutton.png" onclick="openNav()">
+			</div>
+
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="index.html">Home</a>
+				<a href="login.html">Login</a>
+				<a href="register.html">Register</a>
+				<a href="contactUs.html">Contact us</a>
+				<a href="aboutUs.html">about</a>
+			</div>
+		</div>
+		
+				<div id="slideshow-container">
+				<div>
+					<img src="images/1.jpg" style="width:100%" id="slideshow">
+				</div>
+				<a class="prev" onclick="prev()">&#10094;</a>
+				<a class="next" onclick="next()">&#10095;</a>
+				</div>
+	<div id="mydiv" align="center">
+		<fieldset id="register" style="width:50%">
+		<legend>Register</legend>
+		<form onsubmit="return validation()" method="post" name="regForm">
+			<label>First Name: *</label>
+			<input type="text" name="firstName" placeholder="Your First Name" size="25" />
+			<label>Last Name: *</label>
+			<input type="text" name="lastName" placeholder="Your Last Name" size="25" />
+			<label>Email: *</label>
+			<input type="text" name="email" size="25" placeholder="Your Email" />
+			<label>Password: *</label>
+			<input type="password" name="password" placeholder="Your Password" size="25" />
+			<label>Age:</label>
+			<input type="text" name="age" size="25" placeholder="Your Age" />
+			<label>Mobile:</label>
+			<input type="text" name="mobile" size="25" placeholder="Your Mobile" />
+			<label>your fav color:</label>
+			<input type="color" name="usercolor" size="25"  />
+
+			<div align="center">
+			<input type="submit" value="Register" />
+			<input type="reset" value="Clear" onclick="clear2();" />
+			</div>
+		</form>
+		</fieldset>
+
+
+	<div id="footer">&copy; SNEAK </div>
+
+	</body>
+
+</html>
