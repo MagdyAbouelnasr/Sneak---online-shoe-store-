@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>about us</title>
+	<meta charset="UTF-8">
+		<meta name="keywords" content="SNEAK,ShoeWebsite">
+		<meta name="description" content="SNEAK,ShoeWebsite">
+		<meta name="viewport" content="width=device-width, initial-scale:1.0">
+		<link rel="stylesheet" href="styles/myStyleaboutUS.css">
+		<script>
+
+			function openNav() {
+				document.getElementById("mySidenav").style.width = "250px";
+				document.getElementById("main").style.marginLeft = "250px";
+			}
+
+
+			function closeNav() {
+				document.getElementById("mySidenav").style.width = "0";
+				document.getElementById("main").style.marginLeft = "0";
+			}
+
+		</script>
+	</head>
+
+	<body>
+		<div id="main">
+		<div id="header">
+			<div id="name" class="both">
+				<h1>	SNEAK</h1>
+			</div>
+
+			<div id="floatingMenu" class="both">
+				<img src="images/floatbutton.png" onclick="openNav()">
+			</div>
+
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="index.html">Home</a>
+				<a href="login.html">Login</a>
+				<a href="register.html">Register</a>
+				<a href="contactUs.html">Contact us</a>
+				<a href="aboutUs.html">about</a>
+			</div>
+		</div>
+	<div  align="center">
+		<fieldset id="aboutus" style="width:50%">
+		<legend>About Us</legend>
+			<form>
+
+		<details class="info">
+		<summary>Who are we?</summary>
+		<p>we are an egypt based website for shoes retail</p>
+		</details>
+
+		<details class="info">
+		<summary>Why is the website made?</summary>
+		<p>
+		<ul>
+			<li>in egypt there are few to none stores and websites that sell these shoes that we feature</li>
+			<li>to satisfy people who love and shoes and can't get them </li>
+		</ul>
+			</p>
+		</details>
+
+		<details class="info">
+		<summary>Who is behind the website?</summary>
+		<p>
+		<ul>
+			<li>Mohamed Magdy Abouelnasr &nbsp; Marwan tarek Elkaramany</li>
+			<li>we are AAST students who had an idea and grew to make it a reality</li>
+		</ul>
+			</p>
+		</details>
+
+
+			</form>
+		</fieldset>
+	</div>
+		<div id="footer">&copy; SNEAK </div>
+	</div>
+	</body>
+
+</html>
